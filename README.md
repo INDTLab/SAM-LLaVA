@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ### Dataset preparation
 
-Training SAM‑LLaVA requires paired image–mask–text data.  We uses industrial defect datasets such as MVTec‑AD and VisA, and also a few‑shot support set to calibrate the CLIP–SAM cascade.  The data structure is as follows: 
+Training SAM‑LLaVA requires paired image–mask–text data.  We uses industrial defect data sets such as TADD, and also a few‑shot support set to calibrate the CLIP–SAM cascade.  The data structure is as follows: 
 
 ```
 data/
