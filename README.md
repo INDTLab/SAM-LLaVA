@@ -27,7 +27,7 @@ data/
 │   └── ...
 └── descriptions.json
 ```
-
+Please refer to the link for downloading the TADD dataset: <https://github.com/INDTLab/SPGDD-GPT>.
 
 
 ### Training
