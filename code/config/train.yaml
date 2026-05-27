@@ -1,0 +1,21 @@
+dataset:
+  root: "../../data"       # Path to your dataset root containing images, masks and descriptions.json (relative to this config file)
+  val_ratio: 0.1          # Fraction of the data to use for validation/test
+  support_size: 0         # Number of support samples for few‑shot calibration
+
+model:
+  clip_embed_dim: 64      # Channel dimension for the CLIP‑like encoder
+  prompt_dim: 32          # Channel dimension for each multi‑scale prompt branch
+  llm_embed_dim: 128      # Embedding size of the language model
+  llm_hidden_dim: 256     # Hidden size of the language model
+  llm_layers: 2           # Number of GRU layers
+  align_dim: 64           # Dimension of the SASA alignment space
+  num_heads: 4            # Number of attention heads in SASA
+
+train:
+  batch_size: 4           # Training batch size
+  epochs: 5               # Number of training epochs
+  lr: 0.001               # Learning rate
+  alpha: 1.0              # Weight for segmentation loss
+  gamma: 1.0              # Weight for language loss
+  seed: 42                # Random seed

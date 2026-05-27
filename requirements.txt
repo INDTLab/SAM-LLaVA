@@ -1,0 +1,7 @@
+torch
+pillow
+pyyaml
+tqdm
+transformers
+peft
+segment-anything
