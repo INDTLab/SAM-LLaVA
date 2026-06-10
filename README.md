@@ -74,4 +74,10 @@ To run the full SAM‑LLaVA model you must download several pretrained checkpoin
 
 If you find our work useful in your research, please consider citing:
 ```
+@ARTICLE{
+    author={Shengwang An, Chengjia Wang, Xinghui Dong},
+    journal={Pattern Recognition}, 
+    title={SAM-LLaVA: A Segmentation-Aware Vision-Language Framework for Industrial Defect Diagnosis}, 
+    year={2026},
+    }
 ```
